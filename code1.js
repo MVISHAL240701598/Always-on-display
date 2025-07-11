@@ -17,5 +17,5 @@ function fullsccreen() {
 }
 document.addEventListener("DOMContentLoaded", () => {
     updateDisplay();
-    document.body.addEventListener("click", fullsccreen);
+    document.querySelector(".toggle-fullscreen").addEventListener("click", fullsccreen);
 });
