@@ -8,3 +8,14 @@ function updateDisplay() {
 }
 
 setInterval(updateDisplay, 1000);
+function fullsccreen() {
+    if (document.fullscreenElement) {
+        document.exitFullscreen();
+    } else {
+        document.documentElement.requestFullscreen();
+    }
+}
+document.addEventListener("DOMContentLoaded", () => {
+    updateDisplay();
+    document.body.addEventListener("click", fullsccreen);
+});
