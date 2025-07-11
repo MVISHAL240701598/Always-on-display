@@ -15,8 +15,15 @@ body{
 #time{
     font-size: 5em;
     margin: 0;
+    color: white;
 }
 #date {
     font-size: 2em;
     margin: 0;
+}
+.toggle-fullscreen {
+    background: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
 }
