@@ -21,9 +21,3 @@ body{
     font-size: 2em;
     margin: 0;
 }
-.toggle-fullscreen {
-    background: black;
-    border: none;
-    color: black;
-    cursor: pointer;
-}
